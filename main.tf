@@ -1,8 +1,8 @@
-## Copyright © 2021, Oracle and/or its affiliates. 
+## Copyright © 2022, Oracle and/or its affiliates. 
 ## All rights reserved. The Universal Permissive License (UPL), Version 1.0 as shown at http://oss.oracle.com/licenses/upl
 
 module "jenkins" {
-  source                       = "github.com/oracle-quickstart/oci-jenkins"
+  source                       = "github.com/oracle-devrel/terraform-oci-jenkins"
   compartment_ocid             = var.compartment_ocid
   jenkins_version              = var.jenkins_version
   jenkins_password             = var.jenkins_password
@@ -23,7 +23,7 @@ module "jenkins" {
 
 
 module "oci-oke" {
-  source                        = "github.com/oracle-quickstart/oci-oke"
+  source                        = "github.com/oracle-devrel/terraform-oci-arch-oke"
   tenancy_ocid                  = var.tenancy_ocid
   compartment_ocid              = var.compartment_ocid
   oke_cluster_name              = var.oke_cluster_name

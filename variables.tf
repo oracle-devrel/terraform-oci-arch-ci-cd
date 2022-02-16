@@ -1,4 +1,4 @@
-## Copyright © 2021, Oracle and/or its affiliates. 
+## Copyright © 2022, Oracle and/or its affiliates. 
 ## All rights reserved. The Universal Permissive License (UPL), Version 1.0 as shown at http://oss.oracle.com/licenses/upl
 
 variable "tenancy_ocid" {}
@@ -47,7 +47,7 @@ variable "oke_cluster_name" {
 }
 
 variable "oke_node_shape" {
-  default = "VM.Standard.E3.Flex"
+  default = "VM.Standard.E4.Flex"
 }
 
 variable "oke_node_ocpus" {
@@ -82,7 +82,7 @@ variable "jenkins_version" {
 
 variable "jenkins_instance_shape" {
   description = "Instance Shape"
-  default     = "VM.Standard.E3.Flex"
+  default     = "VM.Standard.E4.Flex"
 }
 
 variable "plugins" {

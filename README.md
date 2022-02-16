@@ -192,7 +192,7 @@ Finally, come down and make sure to click on `Save`
 
 ### Step 3: Configure Github webhook
 
-Go to the repo https://github.com/KartikShrikantHegde/jenkins-helloworld. Fork it. 
+Go to the repo https://github.com/oracle-devrel/jenkins-helloworld. Fork it. 
 
 On the right side, Go to `Settings`. Then on the left, click on `Webhooks`. 
 
@@ -296,7 +296,7 @@ Finally, copy both `hello-deploy.sh` and `hello.yml` to /var/lib/jenkins as:
 
 ### Step 8: Update Jenkinsfile in Github repo
 
-Go to the forked Github repo from https://github.com/KartikShrikantHegde/jenkins-helloworld.
+Go to the forked Github repo from https://github.com/oracle-devrel/jenkins-helloworld.
 
 Next, in the repo, you should be able to find `Jenkinsfile`. Let's update the `Jenkinsfile`.
 

@@ -63,7 +63,7 @@ variable "oke_node_count" {
 }
 
 variable "oke_k8s_version" {
-  default = "v1.20.11"
+  default = "v1.24.1"
 }
 
 variable "availability_domain_name" {

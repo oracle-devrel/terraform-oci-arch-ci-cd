@@ -11,7 +11,7 @@ variable "region" {}
 
 variable "release" {
   description = "Reference Architecture Release (OCI Architecture Center)"
-  default     = "1.0.2"
+  default     = "1.0.3"
 }
 
 variable "vcn_cidr" {
@@ -63,7 +63,7 @@ variable "oke_node_count" {
 }
 
 variable "oke_k8s_version" {
-  default = "v1.20.11"
+  default = "v1.24.1"
 }
 
 variable "availability_domain_name" {
